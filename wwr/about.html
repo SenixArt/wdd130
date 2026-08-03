@@ -3,57 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130 - About Us | Daniel Cosme</title>
-    <meta name="description" content="WDD 130 course about us page for white water rafting website.">
+    <title>WDD 130 - Contact Us | SenixArt Rafting</title>
+    <meta name="description" content="Contact SenixArt Rafting for general inquiries, reservation questions, or website suggestions. Get in touch with our team today!">
     <meta name="author" content="Daniel Cosme">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
         <img src="images/logo.png" alt="Rafting Site Logo">
-<nav>
-    <a href="#">Home</a>
-    <a href="wwr/">Rafting Site</a>
-</nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
     </header>
     
     <main>
-        <div class="hero">
-            <img src="images/hero-bg.jpg" alt="White water rafting adventure">
-            <h1>WDD 130 - SenixArt Rafting</h1>
-            <article>
-                <img src="images/profile.jpg" alt="Profile image of a team member">
-                <p>Our mission is to provide the most thrilling and safe white water rafting experiences. Join us for an unforgettable adventure on the river!</p>
-            </article>
+        <h1>Contact Us</h1>
+        
+        <div class="contact-grid">
+            <!-- Company Information & Map Section -->
+            <section class="company-info">
+                <h2>Company Information</h2>
+                <p><strong>Address:</strong> 123 Rapids Way, River City, State 12345</p>
+                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p><strong>Email:</strong> info@senixartrafting.com</p>
+                
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373531531688!3d-37.81627974202166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d6a32f7f1a0!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" width="100%" height="300" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Customer Details</legend>
+                        <div class="form-item">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-item">
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Purpose of Message</legend>
+                        <div class="form-item">
+                            <label><input type="radio" name="purpose" value="general" checked> General Inquiry</label>
+                        </div>
+                        <div class="form-item">
+                            <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                        </div>
+                        <div class="form-item">
+                            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Message</legend>
+                        <div class="form-item">
+                            <label for="message">Your Message:</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Type your message here..."></textarea>
+                        </div>
+                        <div class="form-item checkbox-item">
+                            <label><input type="checkbox" name="newsletter" value="subscribed"> Please subscribe me to the monthly newsletter</label>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
         </div>
-        
-        <section class="history">
-            <h2>History</h2>
-            <p>Founded with a passion for the outdoors, our company has been guiding thrill-seekers through the rapids for over a decade. We pride ourselves on safety, fun, and creating lasting memories.</p>
-        </section>
-        
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventure-gallery">
+
+        <!-- Employee Profiles Section (Minimum 3 employees with images and captions including titles) -->
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="employee-grid">
                 <figure>
-                    <img src="images/rapids1.jpg" alt="Los Dientes del Diablo">
-                    <figcaption>Los Dientes del Diablo</figcaption>
+                    <img src="images/employee1.jpg" alt="Carlos Mendoza - Lead Guide">
+                    <figcaption>Carlos Mendoza - Lead River Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rapids2.jpg" alt="Big Mallard">
-                    <figcaption>Big Mallard</figcaption>
+                    <img src="images/employee2.jpg" alt="María Rodríguez - Safety Director">
+                    <figcaption>María Rodríguez - Safety Director</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rapids3.jpg" alt="Half Day Adventure">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rapids4.jpg" alt="Rapid Thunder">
-                    <figcaption>Rapid Thunder</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rapids5.jpg" alt="Splash Canyon">
-                    <figcaption>Splash Canyon</figcaption>
+                    <img src="images/employee3.jpg" alt="Andrés Pérez - Customer Support">
+                    <figcaption>Andrés Pérez - Customer Relations Manager</figcaption>
                 </figure>
             </div>
         </section>
