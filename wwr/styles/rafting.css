@@ -1,6 +1,4 @@
-/* ==========================================================================
-   1. CSS VARIABLES & THEME
-   ========================================================================== */
+
 :root {
   --primary-color: #055a05; 
   --secondary-color: #f4a261; 
@@ -10,9 +8,7 @@
   --body-font: Arial, Helvetica, sans-serif;
 }
 
-/* ==========================================================================
-   2. UNIVERSAL RESET & BASE STYLES
-   ========================================================================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -40,9 +36,7 @@ p, section, article {
   padding: 8px;
 }
 
-/* ==========================================================================
-   3. HEADER & NAVIGATION
-   ========================================================================== */
+
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
@@ -77,9 +71,7 @@ header nav a:hover {
   color: #ffffff;
 }
 
-/* ==========================================================================
-   4. HERO SECTION (HOME PAGE)
-   ========================================================================== */
+/
 .hero {
   position: relative;
 }
@@ -120,9 +112,7 @@ header nav a:hover {
   border-radius: 4px;
 }
 
-/* ==========================================================================
-   5. ADVENTURES / GALLERY SECTION
-   ========================================================================== */
+
 .adventures h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -154,9 +144,7 @@ header nav a:hover {
   font-weight: bold;
 }
 
-/* ==========================================================================
-   6. CONTACT PAGE GRID & LAYOUT
-   ========================================================================== */
+/
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -181,9 +169,7 @@ header nav a:hover {
   overflow: hidden;
 }
 
-/* ==========================================================================
-   7. FORM STYLES
-   ========================================================================== */
+
 .contact-form fieldset {
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -249,9 +235,7 @@ header nav a:hover {
   background-color: #044404;
 }
 
-/* ==========================================================================
-   8. EMPLOYEE PROFILES GRID & STRICT IMAGE CONSTRAINTS
-   ========================================================================== */
+/
 .employee-profiles {
   margin-top: 30px;
   background-color: #ffffff;
@@ -289,9 +273,6 @@ header nav a:hover {
   color: var(--accent1-color);
 }
 
-/* ==========================================================================
-   9. FOOTER & SOCIAL MEDIA ICONS
-   ========================================================================== */
 footer {
   background-color: var(--primary-color);
   color: #ffffff;
@@ -328,9 +309,7 @@ footer p {
   display: block;
 }
 
-/* ==========================================================================
-   10. RESPONSIVE MEDIA QUERIES
-   ========================================================================== */
+/
 @media (max-width: 768px) {
   header, main, footer {
     width: 100%;
