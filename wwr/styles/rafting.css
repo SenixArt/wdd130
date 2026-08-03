@@ -1,4 +1,6 @@
-
+/* ==========================================================================
+   1. CSS VARIABLES & THEME
+   ========================================================================== */
 :root {
   --primary-color: #055a05; 
   --secondary-color: #f4a261; 
@@ -8,7 +10,9 @@
   --body-font: Arial, Helvetica, sans-serif;
 }
 
-
+/* ==========================================================================
+   2. UNIVERSAL RESET & BASE STYLES
+   ========================================================================== */
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +40,9 @@ p, section, article {
   padding: 8px;
 }
 
-
+/* ==========================================================================
+   3. HEADER & NAVIGATION
+   ========================================================================== */
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
@@ -71,7 +77,9 @@ header nav a:hover {
   color: #ffffff;
 }
 
-/
+/* ==========================================================================
+   4. HERO SECTION (HOME PAGE)
+   ========================================================================== */
 .hero {
   position: relative;
 }
@@ -112,7 +120,9 @@ header nav a:hover {
   border-radius: 4px;
 }
 
-
+/* ==========================================================================
+   5. ADVENTURES / GALLERY SECTION
+   ========================================================================== */
 .adventures h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -144,7 +154,9 @@ header nav a:hover {
   font-weight: bold;
 }
 
-/
+/* ==========================================================================
+   6. CONTACT PAGE GRID & LAYOUT
+   ========================================================================== */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -169,7 +181,9 @@ header nav a:hover {
   overflow: hidden;
 }
 
-
+/* ==========================================================================
+   7. FORM STYLES
+   ========================================================================== */
 .contact-form fieldset {
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -203,19 +217,20 @@ header nav a:hover {
   font-family: var(--body-font);
 }
 
-.contact-form fieldset .form-item label {
-  display: inline;
-  font-weight: normal;
-}
-
-.checkbox-item {
+.radio-item, .checkbox-item {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.checkbox-item input {
+.radio-item input, .checkbox-item input {
   width: auto;
+}
+
+.radio-item label, .checkbox-item label {
+  display: inline;
+  font-weight: normal;
+  margin-bottom: 0;
 }
 
 .submit-btn {
@@ -235,7 +250,21 @@ header nav a:hover {
   background-color: #044404;
 }
 
-/
+/* ==========================================================================
+   8. STUDENT PROFILE & EMPLOYEE PROFILES GRID
+   ========================================================================== */
+.profile-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.profile-section img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .employee-profiles {
   margin-top: 30px;
   background-color: #ffffff;
@@ -273,6 +302,9 @@ header nav a:hover {
   color: var(--accent1-color);
 }
 
+/* ==========================================================================
+   9. FOOTER & SOCIAL MEDIA ICONS
+   ========================================================================== */
 footer {
   background-color: var(--primary-color);
   color: #ffffff;
@@ -309,7 +341,9 @@ footer p {
   display: block;
 }
 
-/
+/* ==========================================================================
+   10. RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
 @media (max-width: 768px) {
   header, main, footer {
     width: 100%;
