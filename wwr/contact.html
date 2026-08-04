@@ -3,109 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130 - Contact Us - Daniel Cosme</title>
+    <title>SenixArt Rafting - Contact Us</title>
     <meta name="description" content="Contact SenixArt Rafting for general inquiries, reservation questions, or website suggestions.">
     <meta name="author" content="Daniel Cosme">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Rafting Site Logo">
+    <header class="site-header">
+        <img src="images/logo.png" alt="SenixArt Rafting Logo" class="logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" aria-current="page">Contact Us</a>
         </nav>
     </header>
-    
+
     <main>
-        <h1>WDD 130 - Contact Us</h1>
-        
-        <p>Welcome to the official contact page for SenixArt Rafting. My name is Daniel Cosme, an 18-year-old web developer and designer from Maracaibo, Venezuela, dedicated to building responsive and engaging web experiences for our rafting adventures.</p>
-
-        <section class="profile-section">
-            <img src="images/profile.jpg" alt="Daniel Cosme Profile Picture">
-        </section>
-        
-        <div class="contact-grid">
-            <section class="company-info">
-                <h2>Company Information</h2>
-                <p><strong>Address:</strong> 123 Rapids Way, River City, State 12345</p>
-                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
-                <p><strong>Email:</strong> info@senixartrafting.com</p>
-                
-                <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373531531688!3d-37.81627974202166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d6a32f7f1a0!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" title="Company Location Map" width="100%" height="300" loading="lazy"></iframe>
-                </div>
-            </section>
-
-            <section class="contact-form">
-                <h2>Send Us a Message</h2>
-                <form action="#" method="post">
-                    <fieldset>
-                        <legend>Customer Details</legend>
-                        <div class="form-item">
-                            <label for="name">Your Name:</label>
-                            <input type="text" id="name" name="name" required placeholder="John Doe">
-                        </div>
-                        <div class="form-item">
-                            <label for="email">Your Email:</label>
-                            <input type="email" id="email" name="email" required placeholder="john@example.com">
-                        </div>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Purpose of Message</legend>
-                        <div class="form-item radio-item">
-                            <input type="radio" id="general" name="purpose" value="General Inquiry" checked>
-                            <label for="general">General Inquiry</label>
-                        </div>
-                        <div class="form-item radio-item">
-                            <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                            <label for="reservation">Reservation Question</label>
-                        </div>
-                        <div class="form-item radio-item">
-                            <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                            <label for="suggestion">Website Suggestion</label>
-                        </div>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Message</legend>
-                        <div class="form-item">
-                            <label for="message">Your Message:</label>
-                            <textarea id="message" name="message" rows="4" required placeholder="Type your message here..."></textarea>
-                        </div>
-                        <div class="form-item checkbox-item">
-                            <input type="checkbox" id="newsletter" name="newsletter" value="subscribed">
-                            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                        </div>
-                    </fieldset>
-
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
-            </section>
-        </div>
-
-        <section class="employee-profiles">
-            <h2>Meet Our Team</h2>
-            <div class="employee-grid">
-                <figure>
-                    <img src="images/employee1.jpg" alt="Carlos Mendoza - Lead River Guide">
-                    <figcaption>Carlos Mendoza - Lead River Guide</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/employee2.jpg" alt="María Rodríguez - Safety Director">
-                    <figcaption>María Rodríguez - Safety Director</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/employee3.jpg" alt="Andrés Pérez - Customer Relations Manager">
-                    <figcaption>Andrés Pérez - Customer Relations Manager</figcaption>
-                </figure>
+        <section class="page-intro">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Questions about a trip, a reservation, or the site itself? Reach out below or send us a message.</p>
             </div>
         </section>
+
+        <section class="profile-section">
+            <img src="images/profile.jpg" alt="Daniel Cosme, developer of the SenixArt Rafting site">
+        </section>
+
+        <div class="container">
+            <div class="contact-grid">
+                <section class="company-info">
+                    <h2>Company Information</h2>
+                    <p><strong>Address:</strong> 123 Rapids Way, River City, State 12345</p>
+                    <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Email:</strong> info@senixartrafting.com</p>
+
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373531531688!3d-37.81627974202166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d6a32f7f1a0!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" title="Company Location Map" width="100%" height="300" loading="lazy"></iframe>
+                    </div>
+                </section>
+
+                <section class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>Customer Details</legend>
+                            <div class="form-item">
+                                <label for="name">Your Name:</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-item">
+                                <label for="email">Your Email:</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Purpose of Message</legend>
+                            <div class="form-item radio-item">
+                                <input type="radio" id="general" name="purpose" value="General Inquiry" checked>
+                                <label for="general">General Inquiry</label>
+                            </div>
+                            <div class="form-item radio-item">
+                                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                                <label for="reservation">Reservation Question</label>
+                            </div>
+                            <div class="form-item radio-item">
+                                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                                <label for="suggestion">Website Suggestion</label>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Message</legend>
+                            <div class="form-item">
+                                <label for="message">Your Message:</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="Type your message here..."></textarea>
+                            </div>
+                            <div class="form-item checkbox-item">
+                                <input type="checkbox" id="newsletter" name="newsletter" value="subscribed">
+                                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                            </div>
+                        </fieldset>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </section>
+            </div>
+
+            <section class="employee-profiles">
+                <h2>Meet Our Team</h2>
+                <div class="employee-grid">
+                    <figure>
+                        <img src="images/employee1.jpg" alt="Carlos Mendoza, Lead River Guide">
+                        <figcaption>Carlos Mendoza &ndash; Lead River Guide</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee2.jpg" alt="Mar&iacute;a Rodr&iacute;guez, Safety Director">
+                        <figcaption>Mar&iacute;a Rodr&iacute;guez &ndash; Safety Director</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee3.jpg" alt="Andr&eacute;s P&eacute;rez, Customer Relations Manager">
+                        <figcaption>Andr&eacute;s P&eacute;rez &ndash; Customer Relations Manager</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </div>
     </main>
-    
-    <footer>
+
+    <footer class="site-footer">
         <p>Copyright &copy; 2026 Brigham Young University-Idaho | All rights reserved - Daniel Cosme</p>
         <div class="socialmedia">
             <a href="https://facebook.com" target="_blank" rel="noopener">
