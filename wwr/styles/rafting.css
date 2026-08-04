@@ -186,7 +186,7 @@ textarea:focus-visible {
   display: flex;
   align-items: flex-end;
   background: linear-gradient(0deg, rgba(11, 61, 76, 0.88) 0%, rgba(11, 61, 76, 0.15) 55%),
-    url("../images/hero-rapids.jpg") center/cover no-repeat;
+    url("../images/hero-bg.jpg") center/cover no-repeat;
   color: var(--color-foam);
 }
 
@@ -248,7 +248,7 @@ textarea:focus-visible {
 /* ---- Offerings grid (home page — required CSS Grid) ---- */
 .offerings {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--space-md);
 }
 
@@ -522,8 +522,8 @@ legend {
 }
 
 .socialmedia img {
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
   filter: invert(96%) sepia(6%) saturate(150%);
 }
 
