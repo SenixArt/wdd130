@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SenixArt Rafting - About Us</title>
+    <meta name="description" content="Learn about SenixArt Rafting's story, our guides, and the whitewater adventures we run on the river.">
+    <meta name="author" content="Daniel Cosme">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header class="site-header">
+        <img src="images/logo.png" alt="SenixArt Rafting Logo" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" aria-current="page">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">SenixArt Rafting</p>
+                <h1>About Us</h1>
+                <p>Our mission is to deliver the most thrilling, safest whitewater rafting experiences on the river &mdash; join us for an adventure you won't forget.</p>
+            </div>
+        </section>
+
+        <section class="story-section">
+            <div class="container">
+                <div class="split-grid">
+                    <div class="story-image">
+                        <img src="images/profile.jpg" alt="A member of the SenixArt Rafting team on the river" width="300" height="300">
+                    </div>
+                    <div class="story-text">
+                        <h2>Our Story</h2>
+                        <p>Founded with a passion for the outdoors, we've been guiding thrill-seekers through the rapids for over a decade. We pride ourselves on safety, fun, and creating lasting memories &mdash; every trip we run is led by certified guides who know this river inside and out.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="adventures-section">
+            <div class="container">
+                <h2>Adventure Awaits You!</h2>
+                <p>A look at some of the rapids and runs you'll experience with us.</p>
+                <div class="adventure-gallery">
+                    <figure>
+                        <img src="images/rapids1.jpg" alt="Los Dientes del Diablo rapid" width="400" height="300">
+                        <figcaption>Los Dientes del Diablo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rapids2.jpg" alt="Big Mallard rapid" width="400" height="300">
+                        <figcaption>Big Mallard</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rapids3.jpg" alt="Half Day Adventure trip" width="400" height="300">
+                        <figcaption>Half Day Adventure</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rapids4.jpg" alt="Rapid Thunder run" width="400" height="300">
+                        <figcaption>Rapid Thunder</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rapids5.jpg" alt="Splash Canyon run" width="400" height="300">
+                        <figcaption>Splash Canyon</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="container">
+                <h2>Ready to Pick Your Adventure?</h2>
+                <p>See every trip we run this season, from easy floats to extreme expeditions.</p>
+                <a href="trips.html" class="btn btn-primary">See All Trips</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Copyright &copy; 2026 Brigham Young University-Idaho | All rights reserved - Daniel Cosme</p>
+        <div class="socialmedia">
+            <a href="https://facebook.com" target="_blank" rel="noopener">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
